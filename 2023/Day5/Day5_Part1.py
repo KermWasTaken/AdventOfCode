@@ -71,4 +71,4 @@ for location in sources:
     if int(location) < min:
         min = int(location)
 
-print(min)
+print(f"Answer: {min}")

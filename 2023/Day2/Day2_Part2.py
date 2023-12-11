@@ -5,7 +5,6 @@ with open("Day2_input.txt") as file:
     for line in file:
         lineElements = line.split(":")[1]
         rounds = lineElements.split(";")
-        print(rounds)
         maxOfRGB = [0, 0, 0]
         for round in rounds:
             parsedRound = round.strip().split(" ")
